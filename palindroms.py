@@ -10,3 +10,11 @@ def palindrome():
     if string != rev_string:
         return False
     return True
+
+if __name__ == "__main__":
+    string = input("enter the text: ")
+    check = palindrome()
+    if check:
+        print("The string is a palindrome.")
+    else:
+        print("The string is not a palindrome.")
